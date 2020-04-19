@@ -1,0 +1,160 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+*,
+*:before,
+*:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+:focus,
+:active {
+    outline: none;
+}
+
+a:focus,
+a:active {
+    outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+    display: block;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-aqjust: 100%;
+    -moz-text-size-aqjust: 100%;
+    -webkit-text-size-aqjust: 100%;
+
+}
+
+input,
+button,
+textarea {
+    font-family: inherit;
+}
+
+input::ms-clear {
+    display: none
+}
+
+button {
+    cursor: pointer;
+}
+
+button::moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+html {
+    width: 100%;
+}
+
+.logo-img {
+    width: 60px;
+    height: 60px;
+    display: flex;
+}
+
+.header-block-text_scp {
+    padding: 30px 30px 30px 30px;
+    background-color: #000;
+    color: #fff;
+}
+
+.header-table {
+    color: #fff;
+    text-align: center;
+    align-items: center;
+    margin-left: 40px;
+}
+
+.header-text_logo {
+    text-align: center;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.img-text-header {
+    display: flex;
+}
+
+.table-list {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    font-family: 'Manrope', sans-serif;
+}
+
+.header-table-1 {
+    margin-left: 40px;
+    margin-right: 40px;
+    color: #fff;
+}
+
+.header-table-2 {
+    color: #fff;
+    text-align: center;
+    align-items: center;
+}
+
+.header-table-0 {
+    color: #fff;
+    text-align: center;
+    align-items: center;
+    margin-left: 710px;
+}
+
+.text-scp_evclid {
+    color: darkgoldenrod;
+    font-family: 'Manrope', sans-serif;
+    font-size: 30px;
+    text-decoration: underline;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.euclid-img {
+    max-width: 100%;
+    display: block;
+    margin: auto;
+}
+
+.text-euclid {
+    text-align: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    font-family: 'Manrope', sans-serif;
+    opacity: 0.7;
+    color: #000;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
